@@ -61,11 +61,11 @@ First we'll fix copy/paste
 
 - On mac `pbcopy` should be builtin
 
-- On Ubuntu
+- On Arch
 
   ```sh
-  sudo apt install xsel # for X11
-  sudo apt install wl-clipboard # for wayland
+  sudo pacman -S xsel # for X11
+  sudo pacman -S wl-clipboard # for wayland
   ```
 
 Next we need to install python support (node is optional)
@@ -87,7 +87,7 @@ We will also need `ripgrep` for Telescope to work:
 - Ripgrep
 
   ```sh
-  sudo apt install ripgrep
+  sudo pacman -S ripgrep
   ```
 
 ---
@@ -174,6 +174,7 @@ Heres the wiki for installing new plugins refer to this: [wiki](https://github.c
 - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
+- [cmp-crates.nvim](https://github.com/Saecki/crates.nvim)
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 - [mason.nvim](https://github.com/williamboman/mason.nvim)
