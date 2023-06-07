@@ -189,6 +189,7 @@ Heres the wiki for installing new plugins refer to this: [wiki](https://github.c
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [DAPInstall.nvim](https://github.com/ravenxrz/DAPInstall.nvim)
 - [which-key.nvim](https://github.com/folke/which-key.nvim)
+- [trouble.nvim](https://github.com/folke/trouble.nvim)
 
 ---
 
